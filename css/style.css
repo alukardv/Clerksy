@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/notosans-regular-webfont.woff') format('woff'),
+    url('../fonts/notosans-regular-webfont.ttf') format('truetype'),
+    url('../fonts/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'recoletasemibold';
+    src: url('../fonts/recoleta-semibold-webfont.eot');
+    src: url('../fonts/recoleta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/recoleta-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/recoleta-semibold-webfont.woff') format('woff'),
+    url('../fonts/recoleta-semibold-webfont.ttf') format('truetype'),
+    url('../fonts/recoleta-semibold-webfont.svg#recoletasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1180px;
+    margin: auto;
+
+}
+header{
+    background: #163A24;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+header .wrapper nav{
+    max-width: 590px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 24px;
+    padding: 15px 0px;
+}
+
+header nav ul li:last-of-type {
+    border-radius: 160px;
+    background: #198C36;
+    padding: 15px 25px;
+}
+
+header nav ul li a{
+    color: #FBFAF7;
+    text-align: right;
+    font-family: 'noto_sansregular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.tagline{
+    background-color: #163A24;
+    padding: 120px 0px 129px 0px;
+    background-image: url("../images/bg-tagline.png");
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 80px;
+}
+
+.tagline .wrapper h1{
+    color: #FBFAF7;
+    font-family: 'recoletasemibold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px; /* 135.938% */
+    max-width: 391px;
+    margin-bottom: 18px;
+}
+
+.tagline p{
+    color: #FBFAF7;
+    font-family: 'noto_sansregular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    max-width: 475px;
+}
