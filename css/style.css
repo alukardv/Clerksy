@@ -311,6 +311,10 @@ header nav ul li a{
     max-width: 379px;
 }
 
+.consider{
+    padding-bottom: 120px;
+}
+
 .consider h2{
     color: #163A24;
     text-align: center;
