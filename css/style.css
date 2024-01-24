@@ -38,6 +38,11 @@
     margin: auto;
 }
 
+.png{
+    height: 100%;
+    width: 100%;
+}
+
 header{
     background: #163A24;
 }
@@ -118,6 +123,7 @@ header nav ul li a{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .section2 .wrapper984 .container-flex-space-between-row-center{
@@ -279,7 +285,7 @@ header nav ul li a{
     margin-bottom: 27px;
 }
 
-.section7 .wrapper984 .container-flex-space-between-row-centerp{
+.section7 .wrapper984 .container-flex-space-between-row-center p{
     max-width: 379px;
 }
 
@@ -302,6 +308,7 @@ header nav ul li a{
     justify-content: center; /* Вирівнюємо елементи по горизонталі по центру */
     gap: 40px;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .section8-article article{
@@ -370,7 +377,7 @@ header nav ul li a{
     justify-content: center; /* Вирівнюємо елементи по горизонталі по центру */
     align-items: center;
     padding: 19px 0 23px 0;
-
+    flex-wrap: wrap;
 }
 
 .section9-article article{
@@ -404,6 +411,23 @@ header nav ul li a{
 .section9-article article:nth-child(1),
 .section9-article article:nth-child(2){
     margin-right: 131px;
+}
+
+.section9-article article:last-child{
+    max-width: 290px;
+}
+
+.section9-article-last-item{
+    background-image: url("../images/easy.svg");
+    width: 290px;
+    height: 183px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.section9-article-last-item .p-noto-sans-fs18-tacenter-cl-green{
+    max-width: 210px;
+    margin-bottom: 25px;
 }
 
 .section10{

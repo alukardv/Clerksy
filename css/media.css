@@ -1,0 +1,67 @@
+@media screen and (max-width: 1056px) {
+    .section9-article article:nth-child(2)::after{
+        content: url("../images/easy1.svg");
+        display: block;
+        position: absolute;
+        top: 110px;
+        right: 0;
+        transform: rotate(150deg);
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .section9-article article:nth-child(1){
+        margin-bottom: 30px;
+    }
+    .section9-article article:nth-child(1)::after{
+        content: url("../images/easy1.svg");
+        display: block;
+        position: absolute;
+        top: 110px;
+        right: 120px;
+        transform: rotate(150deg);
+    }
+
+    .section9-article article:nth-child(2)::after{
+        content: url("../images/easy1.svg");
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: -100px;
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .section9-article article:nth-child(1){
+        margin-bottom: 80px;
+    }
+
+    .section9-article article:nth-child(2){
+        margin-bottom: 80px;
+    }
+
+    .section9-article article:nth-child(1)::after{
+        content: url("../images/easy1.svg");
+        display: block;
+        position: absolute;
+        top: 120px;
+        right: 120px;
+        transform: rotate(90deg);
+    }
+
+    .section9-article article:nth-child(2)::after{
+        content: url("../images/easy1.svg");
+        display: block;
+        position: absolute;
+        top: 120px;
+        right: 120px;
+        transform: rotate(90deg);
+    }
+}
+@media screen and (max-width: 506px) {
+    .png{
+        height: 90%;
+        width: 90%;
+    }
+}
