@@ -131,5 +131,10 @@
 @media screen and (max-width: 442px) {
     .section6{
         background-image: none;
+        min-height: 0;
+        padding: 20px;
+    }
+    .section7{
+        padding: 20px;
     }
 }
