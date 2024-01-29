@@ -51,6 +51,7 @@ header .wrapper1180{
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
+    flex-wrap: wrap;
 }
 
 header .wrapper1180 nav{
@@ -61,6 +62,7 @@ header nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 header nav ul li{
@@ -473,6 +475,7 @@ header nav ul li a{
     background-image: url("../images/started.png");
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-size: cover;
 }
 
 .section11 h2{
