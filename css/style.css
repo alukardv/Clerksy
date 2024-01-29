@@ -241,6 +241,8 @@ header nav ul li a{
 
 .section5-img{
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section5-img article{
