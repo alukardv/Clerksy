@@ -387,4 +387,8 @@
     header .wrapper1180 nav{
         max-width: 100%;
     }
+
+    .cd-header .wrapper1180 .cd-3d-nav-trigger{
+        display: block;
+    }
 }
