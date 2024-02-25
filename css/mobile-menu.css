@@ -391,4 +391,8 @@
     .cd-header .wrapper1180 .cd-3d-nav-trigger{
         display: block;
     }
+
+    header .wrapper1180 nav ul li a{
+        color: transparent;
+    }
 }

@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-    .section1{
+    .running{
         background-position: right -80px bottom;
     }
 
@@ -11,16 +11,16 @@
         padding: 0 20px;
     }
 
-    .section4-img{
+    .we-partner-with-the-best-img{
         padding: 0;
     }
 }
 
 @media screen and (max-width: 1056px) {
-    .section1{
+    .running{
         background-position: right -180px bottom;
     }
-    .section9-article article:nth-child(2)::after{
+    .its-easy-article article:nth-child(2)::after{
         content: url("../images/easy1.svg");
         display: block;
         position: absolute;
@@ -28,10 +28,10 @@
         right: 0;
         transform: rotate(150deg);
     }
-    .section6{
+    .employees-come-in-all-shapes-and-sizes{
         background-size: contain;
     }
-    .section11{
+    .get-started-with-clerksy{
         background-color: #163A24;
         padding: 114px 0px 124px 0px;
         background-image: url("../images/started.png");
@@ -43,15 +43,15 @@
 
 
 @media screen and (max-width: 796px) {
-    .section1{
+    .running{
         background-image: none;
     }
 
-    .section9-article article:nth-child(1){
+    .its-easy-article article:nth-child(1){
         margin-bottom: 30px;
     }
 
-    .section9-article article:nth-child(1)::after{
+    .its-easy-article article:nth-child(1)::after{
         content: url("../images/easy1.svg");
         display: block;
         position: absolute;
@@ -60,7 +60,7 @@
         transform: rotate(150deg);
     }
 
-    .section9-article article:nth-child(2)::after{
+    .its-easy-article article:nth-child(2)::after{
         content: url("../images/easy1.svg");
         display: block;
         position: absolute;
@@ -68,32 +68,32 @@
         right: -100px;
         transform: rotate(0deg);
     }
-    .section2 .wrapper984 .container-flex-space-between-row-center p {
+    .put-the-human-back-in-hr .wrapper984 .container-flex-space-between-row-center p {
         margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 695px) {
-    .section11{
+    .running{
         background-image: none;
     }
 
-    .section9-article{
+    .its-easy-article{
         flex-direction: column;
 
     }
 
-    .section9-article article:nth-child(1){
+    .its-easy-article article:nth-child(1){
         margin-bottom: 80px;
         margin-right: 0;
     }
 
-    .section9-article article:nth-child(2){
+    .its-easy-article article:nth-child(2){
         margin-bottom: 80px;
         margin-right: 0;
     }
 
-    .section9-article article:nth-child(1)::after{
+    .its-easy-article article:nth-child(1)::after{
         content: url("../images/easy1.svg");
         display: block;
         position: absolute;
@@ -102,7 +102,7 @@
         transform: rotate(90deg);
     }
 
-    .section9-article article:nth-child(2)::after{
+    .its-easy-article article:nth-child(2)::after{
         content: url("../images/easy1.svg");
         display: block;
         position: absolute;
@@ -113,11 +113,14 @@
 }
 
 @media screen and (max-width: 650px) {
-    .section5-img{
+    .hr-production-of-the-highest-quality-img{
         margin: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    .owl-stage{
+        width: 650px;
     }
 }
 
@@ -126,15 +129,18 @@
         height: 100%;
         width: 100%;
     }
+    .owl-stage{
+        width: 506px;
+    }
 }
 
 @media screen and (max-width: 442px) {
-    .section6{
+    .employees-come-in-all-shapes-and-sizes{
         background-image: none;
         min-height: 0;
         padding: 20px;
     }
-    .section7{
+    .how-the-scenes-fit-together{
         padding: 20px;
     }
 }

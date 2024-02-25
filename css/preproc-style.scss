@@ -521,3 +521,22 @@ header{
 .cd-3d-nav-trigger{
   display: none;
 }
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-item {
+  text-align: center;
+}
+
+.owl-item img {
+  display: inline-block;
+}
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+  touch-action: auto;
+}
