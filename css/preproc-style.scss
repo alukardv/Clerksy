@@ -518,6 +518,70 @@ header{
   }
 }
 
+.stay-up-to-date{
+  background-color: #F2EFE6;
+  .wrapper1180{
+    .container-flex-space-between-row-center {
+      @include container-flex-space-between-row-center;
+      flex-wrap: nowrap;
+      h2 {
+        @include h2-recoleta-fs48;
+        margin-bottom: 26px;
+      }
+      p {
+        @include p-noto-sans-fs18;
+        margin-bottom: 18px;
+      }
+      .sign-up{
+        .form-sign-up{
+          display: flex;
+        }
+
+        p {
+          max-width: 524px;
+        }
+      }
+    }
+  }
+}
+
+.a-people-company{
+  .wrapper1180{
+    .container-flex-space-between-row-center {
+      @include container-flex-space-between-row-center;
+      h2 {
+        @include h2-recoleta-fs48;
+        font-size: 24px;
+      }
+      ul{
+        display: flex;
+        li{
+          margin-left: 10px;
+        }
+
+      }
+    }
+    .container-flex-space-between-row-center2 {
+      @include container-flex-space-between-row-center;
+      p{
+        @include p-noto-sans-fs18-tacenter-cl-green;
+      }
+      ul{
+        @include p-noto-sans-fs18-tacenter-cl-green;
+        display: flex;
+        list-style: none;
+        li{
+          a{
+            text-decoration: none;
+            color: #198C36;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
 .cd-3d-nav-trigger{
   display: none;
 }
