@@ -520,6 +520,7 @@ header{
 
 .stay-up-to-date{
   background-color: #F2EFE6;
+  padding: 60px 0;
   .wrapper1180{
     .container-flex-space-between-row-center {
       @include container-flex-space-between-row-center;
@@ -533,12 +534,33 @@ header{
         margin-bottom: 18px;
       }
       .sign-up{
+
         .form-sign-up{
           display: flex;
+          max-width: 553px;
+          max-height: 50px;
+          background: white;
+          border-radius: 160px;
+          margin-bottom: 11px;
+          .form-message-line-18{
+            background: transparent;
+            border-radius: 160px;
+            border: none;
+            width: 80%;
+          }
+          .form-message-button{
+            width: 20%;
+            border-radius: 160px;
+            background: #198C36;
+            padding: 15px 25px;
+            color: white;
+            border: none;
+          }
         }
-
         p {
           max-width: 524px;
+          color: #163A24;
+          font-family: $font-sans;
         }
       }
     }
@@ -546,8 +568,10 @@ header{
 }
 
 .a-people-company{
+  padding: 60px 0;
   .wrapper1180{
     .container-flex-space-between-row-center {
+      padding: 24px 0;
       @include container-flex-space-between-row-center;
       h2 {
         @include h2-recoleta-fs48;
@@ -562,6 +586,8 @@ header{
       }
     }
     .container-flex-space-between-row-center2 {
+      border-top: solid grey 1px;
+      padding: 24px 0;
       @include container-flex-space-between-row-center;
       p{
         @include p-noto-sans-fs18-tacenter-cl-green;
@@ -575,6 +601,8 @@ header{
             text-decoration: none;
             color: #198C36;
             margin-left: 10px;
+            font-size: 14px;
+            line-height: 21px;
           }
         }
       }

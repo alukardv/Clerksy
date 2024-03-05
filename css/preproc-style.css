@@ -532,6 +532,7 @@ header .wrapper1180 nav ul li a {
 
 .stay-up-to-date {
   background-color: #F2EFE6;
+  padding: 60px 0;
 }
 .stay-up-to-date .wrapper1180 .container-flex-space-between-row-center {
   display: flex;
@@ -561,12 +562,37 @@ header .wrapper1180 nav ul li a {
 }
 .stay-up-to-date .wrapper1180 .container-flex-space-between-row-center .sign-up .form-sign-up {
   display: flex;
+  max-width: 553px;
+  max-height: 50px;
+  background: white;
+  border-radius: 160px;
+  margin-bottom: 11px;
+}
+.stay-up-to-date .wrapper1180 .container-flex-space-between-row-center .sign-up .form-sign-up .form-message-line-18 {
+  background: transparent;
+  border-radius: 160px;
+  border: none;
+  width: 80%;
+}
+.stay-up-to-date .wrapper1180 .container-flex-space-between-row-center .sign-up .form-sign-up .form-message-button {
+  width: 20%;
+  border-radius: 160px;
+  background: #198C36;
+  padding: 15px 25px;
+  color: white;
+  border: none;
 }
 .stay-up-to-date .wrapper1180 .container-flex-space-between-row-center .sign-up p {
   max-width: 524px;
+  color: #163A24;
+  font-family: "noto_sansregular";
 }
 
+.a-people-company {
+  padding: 60px 0;
+}
 .a-people-company .wrapper1180 .container-flex-space-between-row-center {
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -589,6 +615,8 @@ header .wrapper1180 nav ul li a {
   margin-left: 10px;
 }
 .a-people-company .wrapper1180 .container-flex-space-between-row-center2 {
+  border-top: solid grey 1px;
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -619,6 +647,8 @@ header .wrapper1180 nav ul li a {
   text-decoration: none;
   color: #198C36;
   margin-left: 10px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .cd-3d-nav-trigger {
