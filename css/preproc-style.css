@@ -669,9 +669,4 @@ header .wrapper1180 nav ul li a {
   display: inline-block;
 }
 
-.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
-  -ms-touch-action: auto;
-  touch-action: auto;
-}
-
 /*# sourceMappingURL=preproc-style.css.map */
