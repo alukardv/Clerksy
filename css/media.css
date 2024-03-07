@@ -152,18 +152,10 @@
     .we-partner-with-the-best .wrapper1180 .we-partner-with-the-best-img a:not(:last-child) {
         margin-right: 0;
     }
-    .stay-up-to-date {
-        background-color: #F2EFE6;
-        padding: 60px 0;
-
-        .wrapper1180 {
-            .container-flex-space-between-row-center {
-                flex-wrap: wrap;
-            }
-        }
+    .stay-up-to-date .wrapper1180 .container-flex-space-between-row-center{
+        flex-wrap: wrap;
     }
     .cd-logo1{
         margin-top: 0;
     }
-
 }
